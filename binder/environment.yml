@@ -1,0 +1,11 @@
+name: hds_hybrid
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib=3.8.0
+  - numpy=1.26.3
+  - pandas=2.1.4
+  - python=3.11.7
+  - jupyterlab=4.0.8
+  - pip:
+    - neuralprophet==0.6.2
