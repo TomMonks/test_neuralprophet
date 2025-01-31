@@ -1,11 +1,14 @@
-name: hds_hybrid
+name: hds_hybrid_2025
 channels:
   - conda-forge
 dependencies:
-  - matplotlib=3.8.0
-  - numpy=1.26.3
-  - pandas=2.1.4
-  - python=3.11.7
-  - jupyterlab=4.0.8
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - plotly
+  - python=3.11
+  - jupyterlab
   - pip:
-    - neuralprophet==0.6.2
+    - neuralprophet
