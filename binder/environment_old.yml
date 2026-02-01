@@ -1,0 +1,15 @@
+name: hds_hybrid_2025
+channels:
+  - conda-forge
+dependencies:
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - plotly
+  - python=3.11
+  - jupyterlab
+  - pip:
+    - neuralprophet
+    - forecast-tools
